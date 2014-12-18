@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Assignment 9 - Using Bootstrap</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Page Custom CSS:  I know you didn't want to see a link to CSS other than the Bootstrap CSS, but I couldn't do without it because of the nav bar.
+         Without it, the nav bar gets all messed up. It needs a couple margins and some padding which Bootstrap doesn't provide....that I know of.
+         We had this same problem in class, and you used css to appy the margins. :) -->
+    <link href="css/gallery.css" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Photo Gallery Home</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">Paul's Photos</a>
+                    </li>
+                    <li>
+                        <a href="#">Cameron's Photos</a>
+                    </li>
+                    <li>
+                        <a href="#">Isabel's Photos</a>
+                    </li>
+                    <li>
+                        <a href="#">Mikki's Photos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Cameron&#39;s Photos</h1>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="#">
+                    <img class="img-responsive" src="images/Cam1.jpg" alt="Cameron 1">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="#">
+                    <img class="img-responsive" src="images/Cam2.jpg" alt="Cameron 2">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="#">
+                    <img class="img-responsive" src="images/Cam3.jpg" alt="Cameron 3">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="#">
+                    <img class="img-responsive" src="images/Cam4.jpg" alt="Cameron 4">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="#">
+                    <img class="img-responsive" src="images/Cam5.jpg" alt="Cameron 5">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="#">
+                    <img class="img-responsive" src="images/Cam6.jpg" alt="Cameron 6">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="#">
+                    <img class="img-responsive" src="images/Cam7.jpg" alt="Cameron 7">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="#">
+                    <img class="img-responsive" src="images/Cam8.jpg" alt="Cameron 8">
+                </a>
+            </div>            
+        </div>
+        <hr>
+
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; ComputerWave 2014</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script type="text/ecmascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
