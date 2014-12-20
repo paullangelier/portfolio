@@ -66,7 +66,7 @@ img
 p::first-letter
 {
     color: #ff0000;
-    font-size: xx-large;
+    font-size: 50px;
 }
 
 a:hover, a:active
@@ -78,7 +78,7 @@ p
 { 
     font-family: 'Yanone Kaffeesatz', sans-serif; 
     font-weight: 500; 
-    width: 400px;
+    width: 514px;
 }
 
 .menu-font {
@@ -90,4 +90,9 @@ p
 nav i {
 	margin-right: 10px;
 
+}
+
+p
+{
+    font-size: 25px;
 }
